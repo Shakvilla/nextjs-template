@@ -19,7 +19,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: 🔬 Lint
-        run: npm run lint
+        run: bun run lint
 
   type-check:
     name: ʦ TypeScript
@@ -37,7 +37,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: 🔎 Type check
-        run: npm run type-check --if-present
+        run: bun run type-check --if-present
 
   commitlint:
     name: ⚙️ commitlint
