@@ -4,6 +4,7 @@
     "increment": "Increment"
   },
   "landing": {
-    "welcome": "Welcome"
+    "welcome": "Welcome",
+    "description": "This is my nextjs template for building scalable fullstack applications"
   }
 }
