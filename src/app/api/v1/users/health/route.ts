@@ -1,11 +1,17 @@
+
 /**
  * @swagger
  * /api/v1/users/health:
  *   get:
- *     description: Returns ok!
+ *     summary: Check the health of endpoints
+ *     description: Returns ok status
+ *     tags: 
+ *       - Users
  *     responses:
  *       200:
- *         description: Check health status of users routes!
+ *         description: Ok!
+ *       400:
+ *         description: Not found
  */
 export async function GET() {
   return Response.json({ status: "ok" })
